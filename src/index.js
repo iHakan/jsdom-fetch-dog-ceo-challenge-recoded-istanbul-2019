@@ -64,7 +64,7 @@ window.addEventListener("load", function(e){
    
    for(const li of breeds){
      if(li.textContent.charAt(0) == inputStr){
-       li.textContent = inputStr;
+      
      }
      
    }
