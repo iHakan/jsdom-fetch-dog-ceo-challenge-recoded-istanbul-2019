@@ -47,7 +47,7 @@ window.addEventListener("load", function(e){
  
  ///////////////////challenge-3////////////////////
  function changeOnClick(){
-   const list = document.querySelectorAll("ul#dog-breeds li");
+   const list = document.querySelectorAll('ul#dog-breeds li");
    for(const li of list){
      li.addEventListener("click", (e) => handleClick(e));
    }
