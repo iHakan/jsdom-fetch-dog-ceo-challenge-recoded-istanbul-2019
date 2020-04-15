@@ -58,7 +58,8 @@ window.addEventListener("load", function(e){
  }
  
  //////////////////challenge-4//////////////////////
-
+ function handleFiltering()
+});
 
   
   
