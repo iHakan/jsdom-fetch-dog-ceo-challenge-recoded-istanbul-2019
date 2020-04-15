@@ -56,6 +56,9 @@ window.addEventListener("load", function(e){
  function handleClick(e){
    e.target.style.color == "red"? e.target.style.color = "black" : e.target.style.color = "red";
  }
+ 
+ //////////////////challenge-4//////////////////////
 });
 
+  
   
