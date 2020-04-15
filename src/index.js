@@ -62,9 +62,9 @@ window.addEventListener("load", function(e){
  document.querySelector("select").addEventListener("change",(e) => handleFilter(e.target.value));
  
  function handleFilter(inputStr){
-   const breeds = document.querySelectorAll("ul#dog-breeds li");
+   const breedFilter = document.querySelectorAll("ul#dog-breeds li");
    
-   for(const li of breeds){
+   for(const li of breedFilter){
      if(li.textContent.charAt(0) == inputStr){
         li.style.display = "list-item"; //element will be rendered as a list
      }
