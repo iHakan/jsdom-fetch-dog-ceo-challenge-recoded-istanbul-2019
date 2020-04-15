@@ -53,9 +53,9 @@ window.addEventListener("load", function(e){
    }
  }
  
- function handleClick(e){
-   
-   e.target.style.color == "red"? e.target.style.color = "black" : e.target.style.color = "red";
+ function handleClick(clr){
+   let targetList = clr.target.style.color;
+   targetList == "red"? targetList = "black" : targetList = "red";
  }
 });
 
