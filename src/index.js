@@ -63,7 +63,7 @@ window.addEventListener("load", function(e){
    const breeds = document.querySelectorAll("ul#dog-breeds li");
    
    for(const li of breeds){
-     if(li.charAt(0) == inputStr){
+     if(li.textContent.charAt(0) == inputStr){
        li.textContent = inputStr;
      }
      
