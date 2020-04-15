@@ -58,7 +58,8 @@ window.addEventListener("load", function(e){
  }
  
  //////////////////challenge-4//////////////////////
- document.querySelector("select").addEventListener("change",(e) => handleFilter(e.target.value))
+ 
+ document.querySelector("select").addEventListener("change",(e) => handleFilter(e.target.value));
  
  function handleFilter(inputStr){
    const breeds = document.querySelectorAll("ul#dog-breeds li");
@@ -72,6 +73,7 @@ window.addEventListener("load", function(e){
      }
    }
  }
+ 
 });
 
   
