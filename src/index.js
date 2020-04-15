@@ -53,8 +53,8 @@ window.addEventListener("load", function(e){
    }
  }
  
- function handleClick(clr){
-   let targetList = clr.target.style.color;
+ function handleClick(e){
+   let targetList = e.target.style.color;
    targetList == "red"? targetList = "black" : targetList = "red";
  }
 });
