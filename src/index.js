@@ -54,7 +54,7 @@ window.addEventListener("load", function(e){
  }
  
  function handleClick(e){
-   te.target.style.color == "red"? te.target.style.color = "black" : e.target.style.color = "red";
+   e.target.style.color == "red"? e.target.style.color = "black" : e.target.style.color = "red";
  }
 });
 
