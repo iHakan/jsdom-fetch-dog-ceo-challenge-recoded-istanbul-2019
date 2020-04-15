@@ -66,7 +66,9 @@ window.addEventListener("load", function(e){
      if(li.textContent.charAt(0) == inputStr){
         li.style.display = "list-item"; //element will be rendered as a list
      }
-     
+     else{
+        li.style.display = none;
+     }
    }
  }
 });
