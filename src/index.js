@@ -69,7 +69,7 @@ window.addEventListener("load", function(e){
         li.style.display = "list-item"; //element will be rendered as a list
      }
      else{
-        li.style.display = none;
+        li.style.display = "none";
      }
    }
  }
